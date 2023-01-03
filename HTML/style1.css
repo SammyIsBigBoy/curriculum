@@ -1,0 +1,34 @@
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+* {
+    padding:0;
+    margin:0;
+}
+.header {
+    width:400px;
+    background-color:#141f40;
+    height:100px;
+}
+
+.left {
+    width: 150px;
+    background-color: #80bfa8;
+    height:250px;
+    float:left;
+}
+
+.right {
+    width: 250px;
+    background-color:#8c2727;
+    height:250px;
+    float:left;
+}
+
+.footer {
+    width:400px;
+    background-color:#d98d30;
+    height:100px;
+}
