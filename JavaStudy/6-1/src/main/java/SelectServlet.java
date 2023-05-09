@@ -24,4 +24,5 @@ public class SelectServlet extends HttpServlet {
         out.println("今は" + value + "月です。");
         
     }
+        }
 }
