@@ -55,11 +55,9 @@ public class Main {
 //      問⑦ Calender型calを使い、int型配列arrayDateに今の年・月・日を入れてください。
            Calendar cal = Calendar.getInstance();
 //	    <以下記述>
-           cal.set(Calendar.YEAR, 2023);
-           cal.set(Calendar.MONTH, 3);
-           cal.set(Calendar.DATE, 10);
            
-           int[] arrayDate = {cal.get(Calendar.YEAR), cal.get(Calendar.MONTH), cal.get(Calendar.DATE)};
+           
+           int[] arrayDate = {cal.get(Calendar.YEAR), cal.get(Calendar.MONTH) + 1, cal.get(Calendar.DATE)};
            
 //      問⑧ 配列arrayDateをList型に置換しましょう。
 //      ヒント：asListメソッドはプリミティブ型のデータ型のみ扱えます。
