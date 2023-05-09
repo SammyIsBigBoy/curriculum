@@ -22,7 +22,5 @@ public class SelectServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         // 問② エビデンスと同じ表示になるように修正しましょう。
         out.println("今は" + value + "月です。");
-        
-    }
         }
 }
